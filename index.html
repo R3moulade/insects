@@ -10,11 +10,15 @@
 </head>
 <body>
     <h1>Insects</h1>
+    <img src="images/butterflies.jpg" alt="Insect">
+    <img src="images/butterfly.jpg" alt="Insect">
+    <img src="images/dragonfly.jpg" alt="Insect">
+
     <script>
         // asking the browser if it supports serviceworker
         if ('serviceWorker' in navigator) {
             console.log("Serviceworker is available")
-            navigator.serviceWorker.register("/cat/serviceworker.js");
+            navigator.serviceWorker.register("/insects/serviceworker.js");
         } else {
         console.log("Serviceworker is NOT available")
         }
