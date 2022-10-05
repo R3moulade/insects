@@ -6,7 +6,7 @@ self.addEventListener("install", function(event) {
             return cache.addAll(["/insects/", "/insects/index.html",
             "/insects/butterflies.jpg",
             "/insects/butterfly.jpg",
-            "/insects/dragonfly.jpg"]);
+            "/insects/dragonfly.jpg"])
         })
     )
 });
